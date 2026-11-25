@@ -1,6 +1,6 @@
 # TriageDesk
 
-A Python-based Simple Reflex Agent that automatically classifies, prioritizes, and routes customer support tickets using predefined condition-action rules.
+A Simple Reflex Agent that automatically classifies, prioritizes, and routes customer support tickets using predefined condition-action rules.
 
 ## Overview
 
