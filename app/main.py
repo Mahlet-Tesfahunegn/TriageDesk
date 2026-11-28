@@ -2,15 +2,17 @@ from app.agent import classify_ticket
 
 def main():
 
-    print("=" * 53)
+    print("\n" + "=" * 53)
     print("              Welcome to TriageDesk")
-    print("=" * 53)
+    print("=" * 53 + "\n")
 
     while True:
         ticket = input("Enter your ticket (or type 'exit' to quit): ")
 
         if ticket.strip().lower() == "exit":
-            print("Thank you for using TriageDesk. Goodbye!")
+            print("\n" + "=" * 53)
+            print("      Thank you for using TriageDesk. Goodbye!")
+            print("=" * 53)
             break
         
         try: 
